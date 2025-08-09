@@ -14,6 +14,10 @@ The app is designed to help Muslims stay updated with prayer times no matter whe
 - User-friendly interface
 - Open-source and free to use
 
+## 📸 Screenshots
+![Screenshot 1](screenshots/Screenshot_1.jpg)
+![Screenshot 2](screenshots/Screenshot_2.jpg)
+
 ## 👨‍💻 Author
 **Soiad Mahedi**  
 [GitHub Profile](https://github.com/soiadmahedi)
