@@ -1,0 +1,72 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/cardview_alarm_bg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="12dp"
+		android:layout_marginRight="12dp"
+		android:layout_marginBottom="8dp"
+		app:cardElevation="0dp"
+		app:cardCornerRadius="8dp">
+		<LinearLayout
+			android:id="@+id/linear_xbg"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#ECEFF1"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview_icon_emoji"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="⏰"
+				android:textSize="25sp"
+				android:textColor="#000000" />
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp"
+				android:gravity="center_vertical"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/textview_title"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="TextView"
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview_info"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="TextView"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<ImageView
+				android:id="@+id/imageview_btn_dlt"
+				android:focusable="false"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:padding="8dp"
+				android:background="@drawable/ripple_transparent_round"
+				android:src="@drawable/icon_delete_forever_round"
+				android:scaleType="fitCenter" />
+		</LinearLayout>
+	</com.google.android.material.card.MaterialCardView>
+</LinearLayout>
